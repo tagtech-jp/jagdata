@@ -1,0 +1,13 @@
+name = "jagdata-line-bot"
+main = "src/index.ts"
+compatibility_date = "2025-05-27"
+
+# Workers.dev サブドメインを明示的に有効化 (本番URL)
+workers_dev = true
+
+# Preview URL は無効化 (旧バージョンが意図せず公開されないように)
+preview_urls = false
+
+# Secrets は wrangler secret put で登録 (ここには実値を書かない)
+# LINE_CHANNEL_SECRET
+# LINE_CHANNEL_ACCESS_TOKEN

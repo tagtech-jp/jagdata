@@ -1,0 +1,48 @@
+{
+  "$schema": "jagdata-eval-report-v1",
+  "description": "精度評価レポートテンプレート。ground_truthに正解値を手動記入し、gemini_result（スクリプト出力）と照合する。",
+  "image_path": "test_images/myj5_unknown_001.png",
+  "ground_truth": {
+    "machine_name": null,
+    "total_games": null,
+    "big_count": null,
+    "reg_count": null,
+    "big_probability": null,
+    "reg_probability": null,
+    "combined_probability": null,
+    "total_diff_coins": null
+  },
+  "gemini_result": {
+    "image_path": "",
+    "model": "gemini-2.0-flash",
+    "extracted": {
+      "machine_name": null,
+      "total_games": null,
+      "big_count": null,
+      "reg_count": null,
+      "big_probability": null,
+      "reg_probability": null,
+      "combined_probability": null,
+      "total_diff_coins": null
+    },
+    "raw_text": "",
+    "evaluation": {
+      "fields_detected": 0,
+      "fields_total": 8,
+      "detection_rate": 0.0,
+      "response_seconds": 0.0
+    },
+    "timestamp": ""
+  },
+  "manual_accuracy": {
+    "correct_fields": null,
+    "accuracy_rate": null,
+    "notes": ""
+  },
+  "accuracy_targets": {
+    "detection_rate_min": 0.80,
+    "numerical_accuracy_min": 0.90,
+    "false_detection_rate_max": 0.10,
+    "response_seconds_max": 10.0
+  }
+}

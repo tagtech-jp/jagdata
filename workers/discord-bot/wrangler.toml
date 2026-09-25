@@ -1,0 +1,3 @@
+name = "jagdata-discord-bot"
+main = "src/index.ts"
+compatibility_date = "2025-05-26"

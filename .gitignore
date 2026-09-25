@@ -1,0 +1,29 @@
+# 機密情報
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# テスト画像（実機画像はgit管理しない）
+test_images/*
+!test_images/.gitkeep
+
+# バッチ評価レポート（自動生成・git管理外）
+reports/*.json
+!reports/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+*.swp
